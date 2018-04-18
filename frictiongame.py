@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-author: Joe KOCH DAUBRAWA
-email: joe.kochdaubrawa@gmail.com
+author: Horst JENS
+email: horstjens@gmail.com
 contact: see http://spielend-programmieren.at/de:kontakt
 license: gpl, see http://www.gnu.org/licenses/gpl-3.0.de.html
 idea: template to show how to move pygames Sprites, simple physic and
@@ -526,9 +526,9 @@ class PygView(object):
                     if event.key == pygame.K_9:
                         PygView.friction = 0.9
                   #  if event.key == pygame.K_q:
-                        #PygView.friction = 1.01
+                        PygView.friction = 1.01
                   #  if event.key == pygame.K_e:
-                        #PygView.friction = 0.6
+                        PygView.friction = 0.6
                     if event.key == pygame.K_r:
                         self.ball1.pos = v.Vec2d(PygView.width//2 - 100, PygView.height //2)
                         self.ball2.pos = v.Vec2d(PygView.width//2 + 100, PygView.height //2)
